@@ -43,19 +43,19 @@ h6 {
     background: url(../img/family.jpg) no-repeat center center;
 }
 
-.officer-message {
+.general-message {
     position: relative;
     padding-top: 5%;
-    padding-bottom: 5%; 
+    padding-bottom: 5%;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 28%;
+    padding-top: 25%;
     padding-bottom: 6%;
 }
 
-.intro-message > h1 {
+.intro-message > h1, .general-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
@@ -68,7 +68,7 @@ h6 {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
+.intro-message > h3, .general-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     color: rgb(0,128,0);
     -webkit-text-stroke: 0.25px black;
@@ -81,10 +81,6 @@ h6 {
 
     .intro-header {
         background: #532b7e;
-    }
-
-    .intro-message > h1 {
-        font-size: 3em;
     }
 
     ul.intro-social-buttons > li {
@@ -112,6 +108,17 @@ h6 {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+}
+.purple {
+    color: #532b7e;
+}
+
+.green {
+    color: #046b37;
+}
+
+.gold {
+    color: #d5a229;
 }
 
 .content-section-a {
