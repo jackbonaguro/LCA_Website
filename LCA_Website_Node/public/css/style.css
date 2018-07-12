@@ -11,10 +11,8 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	line-height: 20px;
-	color: #999999;
-	font-size: 300;
-	font-size: 16px;
+	line-height: 30px;
+	font-size: 14pt;
 }
 ol, ul {
 	list-style: none;
@@ -150,6 +148,14 @@ banner
 	min-height: 650px;
 	position: relative;
 }
+
+#banner-small{
+    background: #7851a9;
+    background-size: cover;
+    min-height: 90px;
+    position: relative;
+}
+
 .bg-color{
 	background-image: linear-gradient(to bottom, #046b3788, #ffffffbb);
 	min-height: 650px;
@@ -444,6 +450,7 @@ footer
 ***************************************/
 #footer{
 	background-color: #29302E;
+    font-size: 16px;
 }
 .ftr-tle {
     height: 50px;
@@ -557,4 +564,21 @@ footer
     background: #cFb53b;
     border:0;
     width:400px;
+}
+
+.quote {
+    padding: 5% 20% 5% 20%;
+    font-weight: 100;
+    color: #999999;
+}
+
+.center {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img.center {
+    display:block;
+    width: 400px;
 }

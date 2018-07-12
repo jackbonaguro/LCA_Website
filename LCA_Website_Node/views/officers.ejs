@@ -7,7 +7,7 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   <!--banner-->
-  <section id="banner" class="banner">
+  <section class="banner" id="banner-small">
     <% include ./nav %>
   </section>
 
@@ -15,22 +15,67 @@
   <section id="officers" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-sm-4">
+        <div class="">
           <h1 class="ser-title">Officers</h1>
         
           <br>
 
           <h3 class="ser-title">Executive Committee</h3>
-
           <br>
- 
-          <table style="width:100%">
+          <table class="table">
             <thead>
-              <td>Name</td>
+              <!--td>Name</td>
               <td>Title</td>
               <td>Email</td>
-              <td>Picture</td>
+              <td>Picture</td-->
+              <% for(var i = 0; i < exec[0].length; i++) { %>
+                <th scope="col"><%= exec[0][i] %>
+                </th>
+              <% } %>
             </thead>
+            <tbody>
+            <% for(var i = 1; i < exec.length; i++) { %>
+              <tr scope="row">
+                <% for(var j = 0; j < exec[0].length - 2; j++) { %>
+                  <td>
+                    <%= exec[i][j] %>
+                  </td>
+                <% } %>
+                <td scope="col"><a href="<%= 'mailto:' + exec[i][3] %>"><%= exec[i][3] %></a></td>
+                <td scope="col"><img src="<%= 'img/' + exec[i][4] %>" style="width:100px;"></img>
+                </td>
+              </tr>
+            <% } %>
+            </tbody>
+          </table>
+
+          <h3 class="ser-title">Other Officers</h3>
+          <br>
+          <table class="table">
+            <thead>
+            <!--td>Name</td>
+            <td>Title</td>
+            <td>Email</td>
+            <td>Picture</td-->
+            <% for(var i = 0; i < officers[0].length; i++) { %>
+            <th scope="col"><%= officers[0][i] %>
+            </th>
+            <% } %>
+            </thead>
+            <tbody>
+            <% for(var i = 1; i < officers.length; i++) { %>
+            <tr scope="row">
+              <% for(var j = 0; j < officers[0].length - 2; j++) { %>
+              <td>
+                <%= officers[i][j] %>
+              </td>
+              <% } %>
+              <td scope="col"><a href="<%= 'mailto:' + officers[i][3] %>"><%= officers[i][3] %></a></td>
+              <td scope="col"><img src="<%= 'img/' + officers[i][4] %>" style="width:100px;"></img>
+              </td>
+            </tr>
+            <% } %>
+            </tbody>
           </table>
         </div>
       </div>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% include ./head %>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!--banner-->
+  <section class="banner" id="banner-small">
+    <% include ./nav %>
+  </section>
+
+
+  <section id="error" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <h1>Error</h1>
+        <% if (error.code === 404) { %>
+        <p>
+          The page you are looking for could not be found.
+        </p>
+        <% } else { %>
+        <p>
+          <%= error.message %>
+        </p>
+        <% } %>
+      </div>
+    </div>
+  </section>
+
+  <% include ./footer %>
+
+</body>
+
+</html>

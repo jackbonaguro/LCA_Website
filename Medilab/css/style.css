@@ -5,10 +5,6 @@
     Author URL: https://bootstrapmade.com
 */
 
-.img-responsive {
-    margin: 0 auto;
-}
-
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
@@ -145,17 +141,10 @@ banner
     background-color: rgba(12, 184, 182) !important;
 }
 #banner{
-	background: url('../../img/19fe2cc9-85b0-4e7e-99f5-0118a4b9b3b5.jpg') no-repeat fixed;
+	background: url('img/19fe2cc9-85b0-4e7e-99f5-0118a4b9b3b5.jpg') no-repeat fixed;
 	background-size: cover;
 	min-height: 650px;
 	position: relative;
-}
-
-#banner-small{
-    background: #046b3788;
-    background-size: cover;
-    min-height: 90px;
-    position: relative;
 }
 .bg-color{
 	background-image: linear-gradient(to bottom, #046b3788, #ffffffbb);
