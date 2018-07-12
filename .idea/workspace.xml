@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2e42bdb-f9db-4bab-829b-57f884d2a204" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LCA_Website_Node/views/nav.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/LCA_Website_Node/views/nav.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCA_Website_Node/views/officers.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/LCA_Website_Node/views/officers.ejs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,6 +68,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="officers.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/officers.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="template.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/template.ejs">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/nav.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -145,7 +154,6 @@
         <option value="$PROJECT_DIR$/LCA_Website_Node/app.js" />
         <option value="$PROJECT_DIR$/LCA_Website_Node/views/error.ejs" />
         <option value="$PROJECT_DIR$/LCA_Website_Node/views/exec.csv" />
-        <option value="$PROJECT_DIR$/LCA_Website_Node/views/officers.ejs" />
         <option value="$PROJECT_DIR$/LCA_Website_Node/views/officers.csv" />
         <option value="$PROJECT_DIR$/LCA_Website_Node/routes/index.js" />
         <option value="$PROJECT_DIR$/LCA_Website_Node/views/head.ejs" />
@@ -154,6 +162,7 @@
         <option value="$PROJECT_DIR$/LCA_Website_Node/public/css/style.css" />
         <option value="$PROJECT_DIR$/LCA_Website_Node/views/footer.ejs" />
         <option value="$PROJECT_DIR$/LCA_Website_Node/views/nav.ejs" />
+        <option value="$PROJECT_DIR$/LCA_Website_Node/views/officers.ejs" />
       </list>
     </option>
   </component>
@@ -259,12 +268,12 @@
       <updated>1529027532311</updated>
       <workItem from="1529027540396" duration="10253000" />
       <workItem from="1530151078247" duration="624000" />
-      <workItem from="1531350860993" duration="10804000" />
+      <workItem from="1531350860993" duration="11058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21681000" />
+    <option name="totallyTimeSpent" value="21935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -363,17 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/officers.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#table#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -384,13 +382,6 @@
     <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/officers.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/template.ejs">
@@ -449,6 +440,20 @@
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/officers.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LCA_Website_Node/views/officers.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
         </state>
       </provider>
     </entry>
